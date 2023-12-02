@@ -1,0 +1,41 @@
+﻿namespace = pax_exhibition
+
+# Dual Monarchy event
+pax_exhibition.1 = {
+	type = country_event
+
+	# the title
+	title = pax_exhibiton.1.t
+
+	# the large bold text below the title
+	desc = pax_exhibition.1.d
+
+	# the middle text
+	# flavor = pax_exhibition.1.f
+
+	event_image = {
+		video = "unspecific_ruler_speaking_to_people"
+	}
+
+	icon = "gfx/interface/icons/event_icons/event_newspaper.dds"
+
+	on_created_soundeffect = "event:/SFX/UI/Alerts/event_appear"
+
+	duration = 12
+
+	trigger = {
+		year > 1835
+		current_game_date = 1836.1.2
+		is_player = true
+		exists = c:FRA
+	}
+
+	immediate = {
+
+	}
+
+	option = {
+		name = pax_exhibition.1.a
+		default_option = yes
+	}
+}
