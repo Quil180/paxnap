@@ -1,0 +1,4 @@
+﻿# Why PDX keep using utf-8 with BOM?
+Merge the files for better editing.
+
+BUILDINGS = { }
