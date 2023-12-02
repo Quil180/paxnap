@@ -1,6 +1,9 @@
 ﻿# Why PDX keep using utf-8 with BOM?
 Merge the files for better editing.
 
+Merge = the
+files = for
+better = editing.
 POPS = {
 	s:STATE_SVEALAND = {
 		region_state:SWE = {
@@ -504,16 +507,6 @@ POPS = {
 		}
 	}
 	s:STATE_PROVENCE = {
-		region_state:SAR = {
-			create_pop = {
-				culture = north_italian
-				size = 131100
-			}
-			create_pop = {
-				culture = occitan
-				size = 41100
-			}
-		}
 		region_state:FRA = {
 			create_pop = {
 				culture = occitan
@@ -977,85 +970,8 @@ POPS = {
 			}
 		}
 	}
-	s:STATE_WALLONIA = {
-		region_state:LUX = {
-			create_pop = {
-				culture = wallonian
-				size = 103992
-			}
-			create_pop = {
-				culture = north_german
-				religion = catholic
-				size = 71996
-			}
-			create_pop = {
-				culture = north_german
-				size = 572
-			}
-			create_pop = {
-				culture = ashkenazi
-				size = 210
-			}
-		}
-		region_state:BEL = {
-			create_pop = {
-				culture = wallonian
-				size = 1413476
-			}
-			create_pop = {
-				culture = north_german
-				religion = catholic
-				size = 27847
-			}
-			create_pop = {
-				culture = flemish
-				size = 40207
-			}
-			create_pop = {
-				culture = flemish
-				religion = protestant
-				size = 1355
-			}
-			create_pop = {
-				culture = british
-				size = 317
-			}
-			create_pop = {
-				culture = ashkenazi
-				size = 205
-			}
-		}
-	}
-	s:STATE_FLANDERS = {
-		region_state:BEL = {
-			create_pop = {
-				culture = flemish
-				size = 2224197
-			}
-			create_pop = {
-				culture = flemish
-				religion = protestant
-				size = 6013
-			}
-			create_pop = {
-				culture = wallonian
-				size = 260733
-			}
-			create_pop = {
-				culture = north_german
-				religion = catholic
-				size = 3361
-			}
-			create_pop = {
-				culture = british
-				size = 3185
-			}
-			create_pop = {
-				culture = ashkenazi
-				size = 1131
-			}
-		}
-	}
+	s:STATE_WALLONIA = { }
+	s:STATE_FLANDERS = { }
 	s:STATE_AUSTRIA = {
 		region_state:AUS = {
 			create_pop = {
@@ -1178,35 +1094,7 @@ POPS = {
 			}
 		}
 	}
-	s:STATE_ELBE = {
-		region_state:BRE = {
-			create_pop = {
-				culture = north_german
-				size = 102004
-			}
-			create_pop = {
-				culture = north_german
-				religion = catholic
-				size = 4000
-			}
-		}
-		region_state:HAM = {
-			create_pop = {
-				culture = north_german
-				size = 142404
-			}
-			create_pop = {
-				culture = ashkenazi
-				size = 8000
-			}
-		}
-		region_state:HAN = {
-			create_pop = {
-				culture = north_german
-				size = 512788
-			}
-		}
-	}
+	s:STATE_ELBE = { }
 	s:STATE_EAST_SWITZERLAND = {
 		region_state:SWI = {
 			create_pop = {
@@ -1246,45 +1134,7 @@ POPS = {
 			}
 		}
 	}
-	s:STATE_WESTPHALIA = {
-		region_state:PRU = {
-			create_pop = {
-				culture = north_german
-				religion = catholic
-				size = 771111
-			}
-			create_pop = {
-				culture = ashkenazi
-				size = 1004
-			}
-			create_pop = {
-				culture = north_german
-				size = 506715
-			}
-		}
-		region_state:LIP = {
-			create_pop = {
-				culture = north_german
-				religion = catholic
-				size = 50210
-			}
-			create_pop = {
-				culture = north_german
-				size = 27336
-			}
-		}
-		region_state:SCM = {
-			create_pop = {
-				culture = north_german
-				religion = catholic
-				size = 15775
-			}
-			create_pop = {
-				culture = north_german
-				size = 8045
-			}
-		}
-	}
+	s:STATE_WESTPHALIA = { }
 	s:STATE_ANHALT = {
 		region_state:PRU = {
 			create_pop = {
@@ -1314,21 +1164,6 @@ POPS = {
 		}
 	}
 	s:STATE_RHINELAND = {
-		region_state:PRU = {
-			create_pop = {
-				culture = north_german
-				religion = catholic
-				size = 424000
-			}
-			create_pop = {
-				culture = french
-				size = 8400
-			}
-			create_pop = {
-				culture = north_german
-				size = 323992
-			}
-		}
 		region_state:BAV = {
 			create_pop = {
 				culture = south_german
@@ -1345,44 +1180,8 @@ POPS = {
 			}
 		}
 	}
-	s:STATE_NORTH_RHINE = {
-		region_state:PRU = {
-			create_pop = {
-				culture = north_german
-				religion = catholic
-				size = 830379
-			}
-			create_pop = {
-				culture = north_german
-				size = 179847
-			}
-			create_pop = {
-				culture = wallonian
-				size = 4000
-			}
-			create_pop = {
-				culture = ashkenazi
-				size = 1502
-			}
-		}
-	}
-	s:STATE_RUHR = {
-		region_state:PRU = {
-			create_pop = {
-				culture = north_german
-				religion = catholic
-				size = 702629
-			}
-			create_pop = {
-				culture = north_german
-				size = 152157
-			}
-			create_pop = {
-				culture = ashkenazi
-				size = 1502
-			}
-		}
-	}
+	s:STATE_NORTH_RHINE = { }
+	s:STATE_RUHR = { }
 	s:STATE_BRANDENBURG = {
 		region_state:PRU = {
 			create_pop = {
@@ -1495,50 +1294,8 @@ POPS = {
 			}
 		}
 	}
-	s:STATE_HANNOVER = {
-		region_state:OLD = {
-			create_pop = {
-				culture = north_german
-				size = 219696
-			}
-			create_pop = {
-				culture = north_german
-				religion = catholic
-				size = 38000
-			}
-		}
-		region_state:HAN = {
-			create_pop = {
-				culture = north_german
-				size = 942208
-			}
-			create_pop = {
-				culture = north_german
-				religion = catholic
-				size = 195996
-			}
-			create_pop = {
-				culture = ashkenazi
-				size = 8000
-			}
-			create_pop = {
-				culture = dutch
-				size = 4004
-			}
-		}
-	}
+	s:STATE_HANNOVER = { }
 	s:STATE_BRUNSWICK = {
-		region_state:HAN = {
-			create_pop = {
-				culture = north_german
-				size = 180000
-			}
-			create_pop = {
-				culture = north_german
-				religion = catholic
-				size = 4000
-			}
-		}
 		region_state:BRA = {
 			create_pop = {
 				culture = north_german
@@ -1781,23 +1538,7 @@ POPS = {
 			}
 		}
 	}
-	s:STATE_PIEDMONT = {
-		region_state:SAR = {
-			create_pop = {
-				culture = north_italian
-				size = 2367188
-			}
-			create_pop = {
-				culture = french
-				size = 93996
-			}
-			create_pop = {
-				culture = north_italian
-				religion = jewish
-				size = 2804
-			}
-		}
-	}
+	s:STATE_PIEDMONT = { }
 	s:STATE_SARDINIA = {
 		region_state:SAR = {
 			create_pop = {
@@ -1879,35 +1620,8 @@ POPS = {
 			}
 		}
 	}
-	s:STATE_SAVOY = {
-		region_state:SAR = {
-			create_pop = {
-				culture = french
-				size = 92032
-			}
-			create_pop = {
-				culture = francoprovencal
-				size = 195568
-			}
-			create_pop = {
-				culture = north_italian
-				size = 181200
-			}
-		}
-	}
+	s:STATE_SAVOY = { }
 	s:STATE_EMILIA = {
-		region_state:PAR = {
-			create_pop = {
-				culture = north_italian
-				size = 472004
-			}
-		}
-		region_state:LUC = {
-			create_pop = {
-				culture = north_italian
-				size = 108408
-			}
-		}
 		region_state:MOD = {
 			create_pop = {
 				culture = north_italian
@@ -2046,18 +1760,7 @@ POPS = {
 			}
 		}
 	}
-	s:STATE_CATALONIA = {
-		region_state:SPA = {
-			create_pop = {
-				culture = catalan
-				size = 704308
-			}
-			create_pop = {
-				culture = spanish
-				size = 316804
-			}
-		}
-	}
+	s:STATE_CATALONIA = { }
 	s:STATE_BALEARES = {
 		region_state:SPA = {
 			create_pop = {

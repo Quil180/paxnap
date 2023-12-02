@@ -1,6 +1,9 @@
 ﻿# Why PDX keep using utf-8 with BOM?
 Merge the files for better editing.
 
+Merge = the
+files = for
+better = editing.
 STATE_SVEALAND = {
 	id = 1
 	subsistence_building = "building_subsistence_pastures"

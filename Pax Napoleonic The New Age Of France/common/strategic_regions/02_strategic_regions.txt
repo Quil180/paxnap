@@ -1,6 +1,9 @@
 ﻿# Why PDX keep using utf-8 with BOM?
 Merge the files for better editing.
 
+Merge = the
+files = for
+better = editing.
 region_nile_basin = {
 	graphical_culture = "arabic"
 	capital_province = x50D060
