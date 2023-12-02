@@ -356,6 +356,11 @@
 			country = c:WES
 			type = puppet
 		}
+		# Iberia
+		create_diplomatic_pact = {
+			country = c:SPA
+			type = dominion
+		}
 	}
 
 	c:BOL = {

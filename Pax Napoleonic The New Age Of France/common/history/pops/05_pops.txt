@@ -1,9 +1,15 @@
 ﻿# Why PDX keep using utf-8 with BOM?
 Merge the files for better editing.
 
-Merge = the
-files = for
-better = editing.
+Merge = {
+	the the
+}
+files = {
+	for for
+}
+better = {
+	editing. editing.
+}
 POPS = {
 	s:STATE_SVEALAND = {
 		region_state:SWE = {
@@ -1307,12 +1313,6 @@ POPS = {
 				size = 4000
 			}
 		}
-		region_state:PRU = {
-			create_pop = {
-				culture = north_german
-				size = 112000
-			}
-		}
 	}
 	s:STATE_BAVARIA = {
 		region_state:BAV = {
@@ -1516,12 +1516,6 @@ POPS = {
 			create_pop = {
 				culture = ashkenazi
 				size = 3996
-			}
-		}
-		region_state:MST = {
-			create_pop = {
-				culture = north_german
-				size = 85002
 			}
 		}
 	}
@@ -14077,21 +14071,6 @@ POPS = {
 		}
 	}
 	s:STATE_MADRAS = {
-		region_state:FRA = {
-			create_pop = {
-				culture = tamil
-				size = 182284
-			}
-			create_pop = {
-				culture = french
-				size = 450
-			}
-			create_pop = {
-				culture = tamil
-				religion = catholic
-				size = 17773
-			}
-		}
 		region_state:BIC = {
 			create_pop = {
 				culture = tamil
