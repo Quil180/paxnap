@@ -4,19 +4,28 @@ Merge the files for better editing.
 Merge = {
 	the {
 		0 = the
-		1 = the
+		1 = {
+			0 = the
+			1 = the
+		}
 	}
 }
 files = {
 	for {
 		0 = for
-		1 = for
+		1 = {
+			0 = for
+			1 = for
+		}
 	}
 }
 better = {
 	editing. {
 		0 = editing.
-		1 = editing.
+		1 = {
+			0 = editing.
+			1 = editing.
+		}
 	}
 }
 STATE_SVEALAND = {

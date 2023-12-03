@@ -102,7 +102,13 @@ STATES = {
 		create_state = {
 			country = c:NET
 			owned_provinces = {
-				x777732 x80C0A0 xC04021 x01C0A0
+				x777732 x80C0A0 xC04021
+			}
+		}
+		create_state = {
+			country = c:FRA
+			owned_provinces = {
+				x01C0A0
 			}
 		}
 		add_homeland = cu:dutch
@@ -3527,13 +3533,13 @@ STATES = {
 		create_state = {
 			country = c:FRA
 			owned_provinces = {
-				x0000DF x41C0A0 x4C4894 xC0C0A0
+				x0000DF x4C4894 xC0C0A0
 			}
 		}
 		create_state = {
 			country = c:NET
 			owned_provinces = {
-				xAF3A54
+				xAF3A54 x41C0A0
 			}
 		}
 		add_homeland = cu:dutch
@@ -5770,7 +5776,7 @@ STATES = {
 			}
 		}
 		create_state = {
-			country = c:AUS
+			country = c:CRO
 			owned_provinces = {
 				x90A0E0
 			}
@@ -7240,9 +7246,9 @@ STATES = {
 	}
 	s:STATE_DALMATIA = {
 		create_state = {
-			country = c:AUS
+			country = c:CRO
 			owned_provinces = {
-				xF9421B xEFA0C0 x11A0E0
+				x11A0E0 xF9421B xEFA0C0
 			}
 		}
 		add_homeland = cu:croat
@@ -7252,7 +7258,13 @@ STATES = {
 		create_state = {
 			country = c:AUS
 			owned_provinces = {
-				x71A041 x70DF00 x6D8BC6 xF021C0 x71A0C0 xB39050 xB339EC x458E4C
+				x71A041 x70DF00 x6D8BC6 x458E4C
+			}
+		}
+		create_state = {
+			country = c:CRO
+			owned_provinces = {
+				x71A0C0 xB339EC xB39050 xF021C0
 			}
 		}
 		add_homeland = cu:croat
@@ -7290,9 +7302,9 @@ STATES = {
 	}
 	s:STATE_ISTRIA = {
 		create_state = {
-			country = c:AUS
+			country = c:CRO
 			owned_provinces = {
-				x108021 x3060BF x56C78A xB061C0 x36B2E3 xF0A040
+				x3060BF x56C78A x108021 xF0A040 x36B2E3 xB061C0
 			}
 		}
 		add_homeland = cu:croat
@@ -7348,9 +7360,9 @@ STATES = {
 	}
 	s:STATE_TYROL = {
 		create_state = {
-			country = c:AUS
+			country = c:BAV
 			owned_provinces = {
-				x51C0E0 x4A9C68 xEC6873 xC74CD7 xF061C0 xAB7EB0 x5D4166 xD0C0E0 xF0E0C0
+				xD0C0E0 xEC6873 x51C0E0 xC74CD7 xAB7EB0 x5D4166 x4A9C68 xF061C0 xF0E0C0
 			}
 		}
 		add_homeland = cu:south_german
@@ -7378,7 +7390,13 @@ STATES = {
 		create_state = {
 			country = c:AUS
 			owned_provinces = {
-				x31E041 xB0E040 x792B8A x44F127
+				x31E041 x792B8A
+			}
+		}
+		create_state = {
+			country = c:CRO
+			owned_provinces = {
+				xB0E040 x44F127
 			}
 		}
 		add_homeland = cu:south_german
@@ -7488,7 +7506,7 @@ STATES = {
 	}
 	s:STATE_RUHR = {
 		create_state = {
-			country = c:FRA
+			country = c:WES
 			owned_provinces = {
 				x5101A0 xD08021 x2101E0 x0180E0
 			}

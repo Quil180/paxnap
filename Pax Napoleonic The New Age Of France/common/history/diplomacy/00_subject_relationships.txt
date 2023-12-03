@@ -351,6 +351,11 @@
 			country = c:NET
 			type = protectorate
 		}
+		# Poland
+		create_diplomatic_pact = {
+			country = c:POL
+			type = protectorate
+		}
 		# Westphalia
 		create_diplomatic_pact = {
 			country = c:WES
@@ -359,6 +364,11 @@
 		# Italy
 		create_diplomatic_pact = {
 			country = c:KIT
+			type = personal_union
+		}
+		# Italy
+		create_diplomatic_pact = {
+			country = c:CRO
 			type = personal_union
 		}
 		# Iberia

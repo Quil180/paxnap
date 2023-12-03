@@ -258,35 +258,6 @@
 			save_scope_as = karl_gen
 		}
 
-		scope:karl_gen = {
-			transfer_to_formation = scope:ii_korps
-		}
-
-		create_military_formation = {
-			type = army
-			hq_region = sr:region_italy
-			name = III_Korpskommando
-
-			combat_unit = {
-				type = unit_type:combat_unit_type_line_infantry
-				state_region = s:STATE_LOMBARDY
-				count = 15
-			}
-
-			combat_unit = {
-				type = unit_type:combat_unit_type_lancers
-				state_region = s:STATE_VENETIA
-				count = 5
-			}
-
-			combat_unit = {
-				type = unit_type:combat_unit_type_mobile_artillery
-				state_region = s:STATE_VENETIA
-				count = 5
-			}
-			save_scope_as = iii_korps
-		}
-
 		create_character = { # General
 			is_general = yes
 			first_name = Heinrich
@@ -337,45 +308,10 @@
 			save_scope_as = iiii_korps
 		}
 
-		create_character = { # AUS, General
-			is_general = yes
-			first_name = Laval_Nugent
-			last_name = von_Westmeath
-			historical = yes
-			culture = cu:irish
-			interest_group = ig_armed_forces
-			ideology = ideology_royalist
-			birth_date = 1777.11.3
-			hq = region_italy
-			commander_rank = commander_rank_2
-			traits = {
-				basic_offensive_planner
-				tactful
-			}
-			save_scope_as = laval_gen
-		}
-
 		scope:laval_gen = {
 			transfer_to_formation = scope:iiii_korps
 		}
 
-		create_military_formation = {
-			type = fleet
-			hq_region = sr:region_italy
-			name = K_K_Kriegsmarine
-
-			combat_unit = {
-				type = unit_type:combat_unit_type_frigate
-				state_region = s:STATE_VENETIA
-				count = 4
-			}
-
-			combat_unit = {
-				type = unit_type:combat_unit_type_frigate
-				state_region = s:STATE_ISTRIA
-				count = 1
-			}
-		}
 	}
 
 	c:FRA = {

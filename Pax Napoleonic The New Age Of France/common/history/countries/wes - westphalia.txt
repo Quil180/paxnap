@@ -1,5 +1,5 @@
 ﻿COUNTRIES = {
-	c:FRA = {
+	c:WES = {
 		set_next_election_date = 1837.11.4
 		
 		effect_starting_technology_tier_1_tech = yes
@@ -8,9 +8,7 @@
 		
 		add_taxed_goods = g:wine
 		add_taxed_goods = g:liquor
-		add_taxed_goods = g:services
 		
-		set_tariffs_import_priority = g:engines
 		
 		# Laws
 		activate_law = law_type:law_monarchy
@@ -27,7 +25,7 @@
 		activate_law = law_type:law_colonial_exploitation
 		activate_law = law_type:law_dedicated_police
 		activate_law = law_type:law_professional_army
-		activate_law = law_type:law_no_social_security
+		activate_law = law_type:law_poor_laws
 		activate_law = law_type:law_protected_speech
 		activate_law = law_type:law_national_guard
 		activate_law = law_type:law_tenant_farmers
@@ -38,17 +36,8 @@
 			level = 2
 		}
 
-		set_institution_investment_level = {
-			institution = institution_police
-			level = 1
-		}
 
-		set_institution_investment_level = {
-			institution = institution_colonial_affairs
-			level = 1
-		}
-
-		ig:ig_intelligentsia = {
+		ig:ig_armed_forces = {
 			add_ruling_interest_group = yes
 		}
 

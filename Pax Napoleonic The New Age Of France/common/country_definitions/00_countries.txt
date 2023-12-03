@@ -972,7 +972,7 @@ CRO = {
 	
 	country_type = recognized
 
-	tier = kingdom
+	tier = principality
 	
 	cultures = { croat }
 	capital = STATE_CROATIA

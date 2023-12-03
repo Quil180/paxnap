@@ -1,47 +1,17 @@
-﻿CHARACTERS = {
+CHARACTERS = {
 	c:FRA = {
-		create_character = {
-			first_name = Napoleon
-			last_name = Bonaparte
-			historical = yes
-			age = 65
-			ig_leader = yes
-			ruler = yes
-			is_general = yes
-			dna = dna_napoleon_bonaparte
-			birth_date = 1769.8.15
-			death_date = 1855.3.20
-			interest_group = ig_armed_forces
-			ideology = ideology_bonapartist
-			traits = {
-				persistent
-				engineer
-				direct
-			}
+		create_character = { # King Louis-Philippe d'Orléans
+			template = FRA_napoleon_bonaparte
 		}
-
-			## Interest Group leaders ##
-
-	c:FRA = {
-		create_character = {
-			first_name = Charles-Maurice
-			last_name = de Talleyrand
-			historical = yes
-			age = 62
-			ig_leader = yes
-			dna = dna_anne-jean
-			birth_date = 1754.2.2
-			death_date = 1838.5.17
-			interest_group = ig_landowners
-			ideology = ideology_bonapartist
-			traits = {
-				direct
-			}
+		create_character = { # Heir, Prince Ferdinand-Philippe
+			template = FRA_napoleon_ii
 		}
-		
 
 		## Interest Group leaders ##
 
+		create_character = {
+			template = FRA_talleyrand
+		}
 		create_character = {
 			template = FRA_adolphe_thiers
 		}
@@ -54,7 +24,9 @@
 		create_character = {
 			template = FRA_francois-rene_de_chateaubriand
 		}
-
+		create_character = {
+			template = FRA_jean-de-dieu_soult
+		}
 		create_character = { 
 			# Mathieu de la Drôme
 			# Loose fit, farmer's son, (and not really a politican in 1836), but french farmers would flock to the Radical Socialists (Montagnards) in the 1849, mostly because of tax pledges.
