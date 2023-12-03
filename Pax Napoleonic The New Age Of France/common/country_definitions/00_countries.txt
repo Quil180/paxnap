@@ -657,15 +657,15 @@ LUC = {
 	capital = STATE_EMILIA
 }
 
-MOD = {
-	color = { 241  252  151 }
+KIT = {
+	color = kingdom-of-italy-french
 	
 	country_type = recognized
 
-	tier = principality
+	tier = kingdom
 	
 	cultures = { north_italian }
-	capital = STATE_EMILIA
+	capital = STATE_LOMBARDY
 }
 
 PAP = {

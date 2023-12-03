@@ -2,13 +2,22 @@
 Merge the files for better editing.
 
 Merge = {
-	the the
+	the {
+		0 = the
+		1 = the
+	}
 }
 files = {
-	for for
+	for {
+		0 = for
+		1 = for
+	}
 }
 better = {
-	editing. editing.
+	editing. {
+		0 = editing.
+		1 = editing.
+	}
 }
 STATE_SVEALAND = {
 	id = 1

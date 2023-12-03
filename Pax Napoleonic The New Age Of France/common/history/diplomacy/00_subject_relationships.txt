@@ -349,12 +349,17 @@
 		# Netherlands
 		create_diplomatic_pact = {
 			country = c:NET
-			type = dominion
+			type = protectorate
 		}
 		# Westphalia
 		create_diplomatic_pact = {
 			country = c:WES
-			type = puppet
+			type = dominion
+		}
+		# Italy
+		create_diplomatic_pact = {
+			country = c:KIT
+			type = personal_union
 		}
 		# Iberia
 		create_diplomatic_pact = {
