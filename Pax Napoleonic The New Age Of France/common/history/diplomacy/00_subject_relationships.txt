@@ -359,7 +359,7 @@
 		# Westphalia
 		create_diplomatic_pact = {
 			country = c:WES
-			type = dominion
+			type = protectorate
 		}
 		# Italy
 		create_diplomatic_pact = {
