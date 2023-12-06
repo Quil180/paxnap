@@ -1,6 +1,0 @@
-﻿l_english:
- DECISION_TOOLTIP_FORMAT:1 "#header $NAME$#!\n$TOOLTIP_DELIMITER$\n$TRIGGER_SUMMARY$\n\nWhen taken:\n$EFFECT_SUMMARY$"
-
- fra_lore_decision:0 "Pax Napoleonic: French Lore"
- fra_lore_decision_desc:0 "J'adore les boulettes chinoises"
- fra_lore_decision_tooltip:0 "This tooltip explains things, such as why it makes sense that France (pardon: any great power with french as primary culture) can annex China.\nIn theory this is 100% accurate in at least one alternate timeline."

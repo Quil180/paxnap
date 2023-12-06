@@ -1,20 +1,5 @@
 ﻿POPS = {
 	s:STATE_GELRE = {
-		region_state:NET = {
-			create_pop = {
-				culture = dutch
-				size = 192091
-			}
-			create_pop = {
-				culture = wallonian
-				religion = protestant
-				size = 774
-			}
-			create_pop = {
-				culture = ashkenazi
-				size = 6705
-			}
-		}
 		region_state:FRA = {
 			create_pop = {
 				culture = north_german
@@ -106,34 +91,6 @@
 		}
 	}
 	s:STATE_HOLLAND = {
-		region_state:NET = {
-			create_pop = {
-				culture = dutch
-				size = 632331
-			}
-			create_pop = {
-				culture = dutch
-				religion = catholic
-				size = 327009
-			}
-			create_pop = {
-				culture = flemish
-				size = 26531
-			}
-			create_pop = {
-				culture = wallonian # French or Walloon Reformed
-				religion = protestant
-				size = 6542
-			}
-			create_pop = {
-				culture = ashkenazi
-				size = 34143
-			}
-			create_pop = {
-				culture = sephardic # "Portuguese" Jews
-				size = 2908
-			}
-		}
 		region_state:FRA = {
 			create_pop = {
 				culture = dutch
@@ -205,23 +162,6 @@
 				size = 4000
 			}
 		}
-		region_state:BRA = {
-			create_pop = {
-				culture = north_german
-				size = 220400
-			}
-			create_pop = {
-				culture = north_german
-				religion = catholic
-				size = 4000
-			}
-		}
-		region_state:PRU = {
-			create_pop = {
-				culture = north_german
-				size = 112000
-			}
-		}
 	}
 	s:STATE_WESTPHALIA = {
 		region_state:WES = {
@@ -259,21 +199,6 @@
 		}			
 	 }
 	s:STATE_ANHALT = {
-		region_state:PRU = {
-			create_pop = {
-				culture = north_german
-				size = 1196400
-			}
-			create_pop = {
-				culture = north_german
-				religion = catholic
-				size = 183996
-			}
-			create_pop = {
-				culture = ashkenazi
-				size = 2996
-			}
-		}
 		region_state:WES = {
 			create_pop = {
 				culture = north_german
@@ -761,20 +686,6 @@
 			create_pop = {
 				culture = polish
 				size = 1740004
-			}
-		}
-		region_state:AUS = {
-			create_pop = {
-				culture = south_german
-				size = 28000
-			}
-			create_pop = {
-				culture = ukrainian
-				size = 152000
-			}
-			create_pop = {
-				culture = ashkenazi
-				size = 136000
 			}
 		}
 	}

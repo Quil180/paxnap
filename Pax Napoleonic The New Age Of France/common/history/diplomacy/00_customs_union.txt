@@ -20,6 +20,10 @@
 			type = customs_union
 		}
 		create_diplomatic_pact = {
+			country = c:SWI	
+			type = customs_union
+		}
+		create_diplomatic_pact = {
 			country = c:LIP
 			type = customs_union
 		}			

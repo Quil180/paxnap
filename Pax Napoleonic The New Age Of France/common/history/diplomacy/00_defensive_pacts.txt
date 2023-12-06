@@ -5,92 +5,16 @@
 			type = defensive_pact
 		}	
 	}
-	# Confederation of the Rhine
 	c:FRA = {
 		create_diplomatic_pact = {
-			country = c:WLD	
-			type = defensive_pact
-		}
-		create_diplomatic_pact = {
-			country = c:LIP
-			type = defensive_pact
-		}			
-		create_diplomatic_pact = {
-			country = c:SCM
-			type = defensive_pact
-		}
-		create_diplomatic_pact = {
-			country = c:BRA
-			type = defensive_pact
-		}		
-		create_diplomatic_pact = {
-			country = c:SAX
-			type = defensive_pact
-		}	
-		create_diplomatic_pact = {
-			country = c:MST
-			type = defensive_pact
-		}			
-		create_diplomatic_pact = {
-			country = c:ANH
-			type = defensive_pact
-		}
-		create_diplomatic_pact = {
-			country = c:MEC
-			type = defensive_pact
-		}			
-		create_diplomatic_pact = {
-			country = c:HES
-			type = defensive_pact
-		}		
-		create_diplomatic_pact = {
-			country = c:NAS
-			type = defensive_pact
-		}	
-		create_diplomatic_pact = {
-			country = c:LUB
-			type = defensive_pact
-		}		
-		create_diplomatic_pact = {
-			country = c:FRM
-			type = defensive_pact
-		}
-		create_diplomatic_pact = {
-			country = c:WUR
-			type = defensive_pact
-		}	
-		create_diplomatic_pact = {
-			country = c:BAD
+			country = c:SWI
 			type = defensive_pact
 		}
 		create_diplomatic_pact = {
 			country = c:BAV
 			type = defensive_pact
-		}
-		create_diplomatic_pact = {
-			country = c:SCW
-			type = defensive_pact
-		}
-		create_diplomatic_pact = {
-			country = c:COB
-			type = defensive_pact
-		}
-		create_diplomatic_pact = {
-			country = c:WEI
-			type = defensive_pact
-		}
-		create_diplomatic_pact = {
-			country = c:MEI
-			type = defensive_pact
-		}
-		create_diplomatic_pact = {
-			country = c:HEK
-			type = defensive_pact
-		}	
-		create_diplomatic_pact = {
-			country = c:POL
-			type = defensive_pact
 		}	
 	}
 }
+
 
