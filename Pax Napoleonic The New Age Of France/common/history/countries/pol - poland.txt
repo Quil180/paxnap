@@ -1,0 +1,45 @@
+﻿COUNTRIES = {
+	c:POL = {
+		set_next_election_date = 1837.11.4
+		
+		effect_starting_technology_tier_1_tech = yes
+
+		set_tax_level = medium
+		
+		add_taxed_goods = g:wine
+		add_taxed_goods = g:liquor
+		
+		
+		# Laws
+		activate_law = law_type:law_monarchy
+		activate_law = law_type:law_landed_voting
+		activate_law = law_type:law_freedom_of_conscience
+		activate_law = law_type:law_legal_guardianship
+		activate_law = law_type:law_per_capita_based_taxation
+		activate_law = law_type:law_appointed_bureaucrats
+		activate_law = law_type:law_cultural_exclusion
+		activate_law = law_type:law_protectionism
+		activate_law = law_type:law_interventionism
+		activate_law = law_type:law_public_schools
+		activate_law = law_type:law_per_capita_based_taxation
+		activate_law = law_type:law_colonial_exploitation
+		activate_law = law_type:law_dedicated_police
+		activate_law = law_type:law_professional_army
+		activate_law = law_type:law_poor_laws
+		activate_law = law_type:law_protected_speech
+		activate_law = law_type:law_national_guard
+		activate_law = law_type:law_tenant_farmers
+
+
+
+		ig:ig_armed_forces = {
+			add_ruling_interest_group = yes
+		}
+
+		ig:ig_landowners = {
+			add_ruling_interest_group = yes
+		}
+		
+
+	}
+}

@@ -210,6 +210,12 @@
 				size = 16000
 			}
 		}
+		region_state:SAX = {
+			create_pop = {
+				culture = north_german
+				size = 1196400
+			}
+		}
 	}
 	s:STATE_RHINELAND = {
 		region_state:FRA = {
@@ -694,20 +700,6 @@
 			create_pop = {
 				culture = polish
 				size = 832800
-			}
-		}
-		region_state:AUS = {
-			create_pop = {
-				culture = ukrainian
-				size = 1544404
-			}
-			create_pop = {
-				culture = south_german
-				size = 20004
-			}
-			create_pop = {
-				culture = ashkenazi
-				size = 180000
 			}
 		}
 	}

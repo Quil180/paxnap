@@ -1248,7 +1248,7 @@ STATES = {
 	}
 	s:STATE_BALEARES = {
 		create_state = {
-			country = c:SPA
+			country = c:FRA
 			owned_provinces = {
 				x7D3FD7 x60F080
 			}
@@ -2264,9 +2264,9 @@ STATES = {
 	}
 	s:STATE_PARANA = {
 		create_state = {
-			country = c:BRZ
+			country = c:POR
 			owned_provinces = {
-				xC8530D x5A3B50 x38FE72 x1D2749 x535BBC xE80B69 xDF9E45 x6B95AD xA7D75D x859E23 xBACBB5 x53CD15 x3A6B08 x32FF03 x6806EF xB6F7AD xDB9540 xE122FE x44FB4A xB989FC x5CDB1F x8A1D55 x3B0630 x003689 x01887B xE9A1A3 x946DFF x1340B9 x492CDF x966EB0 xB9F1A1 x7B795B xAAF4D8 xC550D6 x6A63A4 x9A966C x666C0F xF98F63 xA30827 x1CF076 xC4A130
+				x8A1D55 x5CDB1F x003689 x01887B x3B0630 x7B795B x666C0F x966EB0 xF98F63 xC4A130 x1CF076 x9A966C xE9A1A3 x1340B9 xA30827 x6806EF xDB9540 x53CD15 x535BBC x6A63A4 xAAF4D8 x492CDF xB9F1A1 xDF9E45 xB6F7AD x38FE72 x946DFF xC550D6 xE80B69 xA7D75D x3A6B08 x44FB4A x6B95AD x859E23 xB989FC xC8530D xE122FE x5A3B50 xBACBB5 x32FF03 x1D2749
 			}
 		}
 		add_homeland = cu:brazilian
@@ -2276,9 +2276,9 @@ STATES = {
 	}
 	s:STATE_SANTA_CATARINA = {
 		create_state = {
-			country = c:BRZ
+			country = c:POR
 			owned_provinces = {
-				xC550DC x8A5C63 x8D6AA3 xDF5E13 x09803F x9937ED x9DE26B x3066EF xA88387 xEB0D5F xF6A625 x02483B x06999F x2DA91C x4538A5 xF3F10A xC7B370 x600573 xEDCD15 xA57238
+				xA57238 xC7B370 x02483B x09803F xC550DC x2DA91C x06999F x9937ED x8D6AA3 x9DE26B x8A5C63 x600573 xEDCD15 x4538A5 xDF5E13 x3066EF xF3F10A xA88387 xEB0D5F xF6A625
 			}
 		}
 		add_homeland = cu:brazilian
@@ -3464,11 +3464,10 @@ STATES = {
 			}
 		}
 		create_state = {
-			country = c:GBR
+			country = c:FRA
 			owned_provinces = {
 				xBC6ED3
 			}
-			state_type = unincorporated
 		}
 		add_homeland = cu:spanish
 	}
@@ -7197,13 +7196,13 @@ STATES = {
 		create_state = {
 			country = c:POL
 			owned_provinces = {
-				x56599F xC7B7B8 x5F3456 xC8690C xFCC35F xA63CE6 x66DCEE
+				x56599F xC7B7B8 x5F3456 xC8690C xFCC35F xA63CE6 x66DCEE xA550A9 x11E061 x906060
 			}
 		}
 		create_state = {
 			country = c:AUS
 			owned_provinces = {
-				x90E060 x9061E0 x1161E0 x906060 xA550A9 x11E061
+				x90E060 x9061E0 x1161E0
 			}
 		}
 		add_homeland = cu:polish
@@ -7788,11 +7787,10 @@ STATES = {
 	}
 	s:STATE_MALTA = {
 		create_state = {
-			country = c:GBR
+			country = c:FRA
 			owned_provinces = {
-				x015121 x3A8B51
+				x3A8B51 x015121
 			}
-			state_type = unincorporated
 		}
 		add_homeland = cu:maltese
 	}
